@@ -65,17 +65,16 @@ public class BibliotecaApp {
     }
 
     private static void modoRegistro(Scanner scanner) {
-        // Lógica para el modo de registro
+     
         System.out.println("Modo Registro seleccionado.");
 
-        // Crear un usuario nuevo
+      
         System.out.print("Ingrese el nombre de usuario: ");
         String nombreUsuario = scanner.next();
 
         System.out.print("Ingrese la contraseña: ");
         String contrasena = scanner.next();
 
-        // Seleccionar el plan
         System.out.println("Seleccione un plan:");
         System.out.println("1. Gratis");
         System.out.println("2. Premium");
@@ -119,7 +118,6 @@ public class BibliotecaApp {
         System.out.println("Definir horario de pasar por el préstamo (Implementación básica)");
     }
 
-    // ... (resto del código)
 
     private static void modoIngresarSalir(Scanner scanner) {
         // Lógica para el modo Ingresar/Salir
@@ -219,26 +217,17 @@ public class BibliotecaApp {
             return false;
         }
 
-        // Aquí podrías agregar la lógica para ingresar detalles del libro
-        // y guardarlos en algún lugar (puede ser en un archivo o una lista, por
-        // ejemplo).
 
         librosPrestados++;
         return true;
     }
 
     private static void agregarRevista() {
-        // Lógica para agregar una revista
-        // Puedes agregar la lógica necesaria aquí para ingresar detalles de la revista
-        // y guardarlos en algún lugar (puede ser en un archivo o una lista, por
-        // ejemplo).
+
     }
 
     private static void vaciarLista() {
-        // Lógica para vaciar la lista de libros y revistas
-        // Puedes agregar la lógica necesaria aquí para borrar todos los libros y
-        // revistas
-        // asociados al usuario actual.
+.
         librosPrestados = 0;
     }
 
@@ -317,10 +306,7 @@ public class BibliotecaApp {
         }
     }
 
-    // Aquí puedes agregar las demás funciones correspondientes a las opciones b, c,
-    // d, e, y f.
-    // Te he proporcionado la estructura básica y la primera función para que puedas
-    // continuar.
+
 
     private static void modoPerfil() {
         // Lógica para el modo de perfil
